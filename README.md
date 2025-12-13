@@ -1,146 +1,92 @@
-# Jogo de Adivinhação 🎲
+# Adivinha Go 🎯
 
-<br>
+![Adivinha Go](https://img.shields.io/badge/Download%20Now-Release-brightgreen)  
+[Download the latest release here!](https://github.com/sant789/adivinha-go/releases)
 
-## 🇧🇷 Versão em Português (pt-BR)
+Welcome to **Adivinha Go**, a fun and interactive guessing game built with Go and the Bubble Tea framework. This project serves as a great way to learn Go while enjoying a classic game of guessing numbers. 
 
-<div align="center">
-  
-![Go Version](https://img.shields.io/badge/Go-1.23.3-00ADD8?style=for-the-badge&logo=go)
-![Bubble Tea](https://img.shields.io/badge/Bubble_Tea-TUI-7D56F4?style=for-the-badge)
+## Table of Contents
 
-**Um jogo de adivinhação no terminal com uma interface elegante e interativa!**
-</div>
+- [About the Game](#about-the-game)
+- [Features](#features)
+- [Installation](#installation)
+- [How to Play](#how-to-play)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-### 📝 Sobre o Projeto
-Este projeto foi desenvolvido como parte da minha jornada de aprendizado em Go (Golang). É um jogo simples de adivinhação onde você tenta adivinhar um número entre 0 e 100 dentro de 10 tentativas.
+## About the Game
 
-> **Nota:** Este código foi construído durante um período de estudos e pesquisa sobre Golang, explorando conceitos de desenvolvimento de aplicações TUI (Terminal User Interface) e a utilização de bibliotecas modernas do ecossistema Go.
+In **Adivinha Go**, you will try to guess a number between 0 and 100 within 10 attempts. The game provides hints to help you, indicating if your guess is "quente" (hot) or "frio" (cold). This project is not just about the game; it's also a valuable learning experience for anyone interested in Go programming and terminal user interfaces (TUI).
 
-### ✨ Funcionalidades
-- Interface de linha de comando (TUI) interativa e colorida
-- Dicas visuais baseadas na proximidade ao número secreto ("quente" ou "frio")
-- Barra de progresso para acompanhar tentativas restantes
-- Histórico visual dos palpites anteriores
-- Feedback em tempo real sobre cada tentativa
+![Game Screenshot](https://example.com/screenshot.png)
 
-### 🛠️ Tecnologias Utilizadas
-- [Go 1.23.3](https://go.dev/) - Linguagem de programação
-- [Bubble Tea](https://github.com/charmbracelet/bubbletea) - Framework para criação de TUIs
-- [Lip Gloss](https://github.com/charmbracelet/lipgloss) - Biblioteca para estilização de texto
-- [Bubbles](https://github.com/charmbracelet/bubbles) - Componentes reutilizáveis para Bubble Tea
+## Features
 
-### 🚀 Como Executar
+- **Interactive TUI**: Built with Bubble Tea, the game features a terminal-based user interface that is easy to navigate.
+- **Hints System**: Get feedback on your guesses with "quente" or "frio" hints.
+- **Simple Setup**: Easy to install and run on any machine with Go installed.
+- **Learning Resource**: Ideal for beginners wanting to explore Go and TUI development.
 
-#### Pré-requisitos
-- Go 1.23.3 ou superior instalado
+## Installation
 
-#### Instalação
+To get started, clone the repository to your local machine:
+
 ```bash
-# Clone o repositório
-git clone https://github.com/Paulo-Borszcz/go-1---Guesing-Game.git
+git clone https://github.com/sant789/adivinha-go.git
 cd adivinha-go
-
-# Baixe as dependências
-go mod tidy
-
-# Execute o jogo
-go run main.go
 ```
 
-### 🎯 Como Jogar
-1. O jogo escolherá um número aleatório entre 0 e 100
-2. Digite seu palpite e pressione Enter
-3. O jogo informará se seu palpite está acima ou abaixo do número secreto
-4. Você terá no máximo 10 tentativas para adivinhar o número
-5. Dicas "quente" ou "frio" indicarão quão perto você está
+Next, ensure you have Go installed. If not, you can download it from the [official Go website](https://golang.org/dl/).
 
-### 📚 O Que Aprendi
-- Criação de aplicações TUI (Terminal User Interface) com Go
-- Uso do padrão Model-View-Update (MVU) do Bubble Tea
-- Manipulação de entrada de usuário e eventos de teclado
-- Estilização de texto no terminal com Lip Gloss
-- Gerenciamento de estados em aplicações Go
-- Uso de estruturas de dados e funções em Go
-- Implementação de lógica de jogo simples
+To install the required dependencies, run:
 
-### 🔍 O Que Poderia Ser Melhorado
-Como este é um projeto de estudo, há várias melhorias que poderiam ser implementadas:
-- Adicionar níveis de dificuldade
-- Implementar um sistema de pontuação
-- Adicionar sons ou animações mais elaboradas
-- Salvar estatísticas de jogos anteriores
-- Implementar testes automatizados
-
----
-# Guessing Game 🎲
-
-## 🇺🇸 English Version (en-US)
-
-<div align="center">
-  
-![Go Version](https://img.shields.io/badge/Go-1.23.3-00ADD8?style=for-the-badge&logo=go)
-![Bubble Tea](https://img.shields.io/badge/Bubble_Tea-TUI-7D56F4?style=for-the-badge)
-
-**A guessing game in the terminal with an elegant and interactive interface!**
-</div>
-
-### 📝 About the Project
-This project was developed as part of my learning journey in Go (Golang). It's a simple guessing game where you try to guess a random number between 0 and 100 within 10 attempts.
-
-> **Note:** This code was built during a period of study and research on Golang, exploring concepts of TUI (Terminal User Interface) application development and the use of modern libraries from the Go ecosystem.
-
-### ✨ Features
-- Interactive and colorful command-line interface (TUI)
-- Visual hints based on proximity to the secret number ("hot" or "cold")
-- Progress bar to track remaining attempts
-- Visual history of previous guesses
-- Real-time feedback on each attempt
-
-### 🛠️ Technologies Used
-- [Go 1.23.3](https://go.dev/) - Programming language
-- [Bubble Tea](https://github.com/charmbracelet/bubbletea) - Framework for creating TUIs
-- [Lip Gloss](https://github.com/charmbracelet/lipgloss) - Library for text styling
-- [Bubbles](https://github.com/charmbracelet/bubbles) - Reusable components for Bubble Tea
-
-### 🚀 How to Run
-
-#### Prerequisites
-- Go 1.23.3 or higher installed
-
-#### Installation
 ```bash
-# Clone the repository
-git clone https://github.com/Paulo-Borszcz/go-1---Guesing-Game.git
-cd guessing-go
-
-# Download dependencies
-go mod tidy
-
-# Run the game
-go run main.go
+go get
 ```
 
-### 🎯 How to Play
-1. The game will choose a random number between 0 and 100
-2. Type your guess and press Enter
-3. The game will tell you if your guess is above or below the secret number
-4. You will have a maximum of 10 attempts to guess the number
-5. "Hot" or "cold" hints will indicate how close you are
+Now, you are ready to play! For the latest release, you can [download it here](https://github.com/sant789/adivinha-go/releases).
 
-### 📚 What I Learned
-- Creating TUI (Terminal User Interface) applications with Go
-- Using the Model-View-Update (MVU) pattern of Bubble Tea
-- Handling user input and keyboard events
-- Styling text in the terminal with Lip Gloss
-- Managing state in Go applications
-- Using data structures and functions in Go
-- Implementing simple game logic
+## How to Play
 
-### 🔍 What Could Be Improved
-As this is a learning project, there are several improvements that could be implemented:
-- Add difficulty levels
-- Implement a scoring system
-- Add sounds or more elaborate animations
-- Save statistics from previous games
-- Implement automated tests
+1. **Start the Game**: Run the game by executing:
+
+    ```bash
+    go run main.go
+    ```
+
+2. **Make Your Guess**: Enter a number between 0 and 100.
+
+3. **Receive Feedback**: After each guess, you will receive a hint indicating if you are "quente" or "frio".
+
+4. **Win the Game**: Try to guess the correct number within 10 attempts!
+
+5. **Play Again**: Once you finish, you can restart the game for another round.
+
+![Gameplay Example](https://example.com/gameplay.png)
+
+## Contributing
+
+We welcome contributions to improve this project! If you want to help out, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Create a pull request explaining your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or feedback, feel free to reach out:
+
+- **Author**: Your Name
+- **Email**: your.email@example.com
+- **GitHub**: [sant789](https://github.com/sant789)
+
+For the latest releases, check out the [Releases section](https://github.com/sant789/adivinha-go/releases). 
+
+Enjoy guessing! 🎉
